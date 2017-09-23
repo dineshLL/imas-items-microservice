@@ -22,7 +22,7 @@ public class GetItemActor extends AbstaractActor {
 	public Serializable act(JsonObject payload) {
 		logger.info("get items service executing...");
 		
-		sendMessage(new Action("log", "info"), JsonProvider.provider().createObjectBuilder().add("message", "from get items service").build());
+		sendMessage(new Action("orders", "place"), JsonProvider.provider().createObjectBuilder().add("message", "from get items service").build());
 		return null;
 	}
 
