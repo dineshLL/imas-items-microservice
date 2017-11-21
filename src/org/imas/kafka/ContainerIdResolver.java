@@ -14,7 +14,7 @@ public enum ContainerIdResolver {
 	private static final String C = "-c";
 	private static final String BASH = "bash";
 	
-	private String containerId = "from windows";
+	private String containerId = "items";
 	
 	private ContainerIdResolver() {
 		Process p;
